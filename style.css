@@ -134,3 +134,66 @@ color: white;
     display: inline-block;
     font-size: 12px;
 }
+.media{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+.media p{
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.social-icons img{
+    width: 100px;
+    transition: 0.5s ease;
+}
+.social-icons a img:hover{
+    transform: translateY(-10px);
+}
+.footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+}
+.footer img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .bi{
+margin-right: 8px;
+font-size: 25px;
+height: 30px;
+width: 540px;
+text-align: center;
+padding-top: 7px;
+border-radius: 2px;
+background-image: linear-gradient(to right,#a517ba,#5f1782);
+
+}
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    max-width: 250px;
+
+}
+.footer-box .btn-primary{
+        box-shadow: none;
+        border: none;
+        border-radius: 10px;
+        margin-top: 30px;
+        background-image: linear-gradient(to right,#a517ba,#5f1782);
+        text-decoration: none;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
